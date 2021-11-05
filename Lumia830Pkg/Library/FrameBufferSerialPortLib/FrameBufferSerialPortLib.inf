@@ -1,0 +1,30 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = FrameBufferSerialPortLib
+  MODULE_TYPE    = BASE
+  VERSION_STRING = 1.0
+  LIBRARY_CLASS  = SerialPortLib
+
+[Sources.common]
+  FrameBufferSerialPortLib.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  ArmPkg/ArmPkg.dec
+  Lumia830Pkg/Lumia830Pkg.dec
+
+[LibraryClasses]
+  ArmLib
+  PcdLib
+  IoLib
+  HobLib
+  CompilerIntrinsicsLib
+  CacheMaintenanceLib
+
+[Pcd]
+  gLumia830PkgTokenSpaceGuid.PcdMipiFrameBufferAddress
+  gLumia830PkgTokenSpaceGuid.PcdMipiFrameBufferWidth
+  gLumia830PkgTokenSpaceGuid.PcdMipiFrameBufferHeight
+  gLumia830PkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp
+  gLumia830PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth
+  gLumia830PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight
