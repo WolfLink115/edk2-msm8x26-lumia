@@ -17,11 +17,12 @@ https://github.com/WolfLink115/Lumia-640-RM-1073_Unbrick**
 ```
 git clone https://github.com/tianocore/edk2 --recursive
 git clone https://github.com/tianocore/edk2-platforms
-git clone https://github.com/WolfLink115/Lumia830Pkg
+git clone https://github.com/WolfLink115/edk2-msm8x26-lumia
 ```
 #### Install dependencies:
+For Ubuntu/Debian-based systems
 ```
-sudo apt-get install build-essential uuid-dev iasl git gcc-5 nasm python3-distutils
+sudo apt install build-essential uuid-dev iasl git gcc-5 nasm python3-distutils
 ```
 
 #### To Build EDK2 just run this in the Linux terminal:
