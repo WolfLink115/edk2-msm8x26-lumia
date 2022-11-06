@@ -27,6 +27,7 @@ sudo apt install build-essential uuid-dev iasl git gcc-5 nasm python3-distutils
 
 #### To Build EDK2 just run this in the Linux terminal:
 ```
+mkdir workspace
 ./build.sh
 ```
 ## How to Install (Windows Needed)
