@@ -1,3 +1,7 @@
+# THIS REPO IS OUT OF DATE! I AM LEAVING IT HERE AS AN ARCHIVE REPO SINCE IT HAS INSTRUCTIONS TO INSTALL LINUX! IF YOU WANT AN UP TO DATE REPO USE THE MAINLINE4LUMIA REPO! THANKS!
+
+Mainline4Lumia team GitHub: https://github.com/Mainline4Lumia
+
 # Lumia830Pkg
 
 **All this assumes you already have unlocked your bootloader and know how to switch between different modes as well as 
